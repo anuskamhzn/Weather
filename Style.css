@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #566b7d;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    /* background-color: #88a1cd; */
+    background:url(pic.jpg) no-repeat;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-box i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.search-box input {
+    background: rgb(227, 229, 233);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Apply border-radius to all sides */
+    outline: none;
+    width: 300px;
+}
+
+.search-box button {
+    background: rgb(227, 229, 233);
+    color: #757481;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; /* Adjust the radius value */
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 200px; /* Adjust as needed */
+}
+
+button {
+    background-color: #8aa5b7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.not-found {
+    display: none;
+    color: #e74c3c;
+}
+
+.weather-box {
+    margin-top: 30px;
+}
+
+.temperature {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+}
+
+.description {
+    margin: 0;
+    color: #555;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.humidity,
+.wind,
+.pressure {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.text {
+    margin-left: 10px;
+    color: #333;
+}
+
+.text p {
+    margin-top: 0; /* Remove margin-top from <p> elements */
+    padding-right: 5px; /* Add padding to the left of <p> elements */
+}
+
+.weather-details i {
+    font-size: 30px; /* Adjust the size as needed */
+    margin-left: 8px; /* Add margin to the right of icons */
+}
+
+
+
+.link {
+    margin-top: 30px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #3e4347;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth transition effect */
+
+}
+
+.link a:hover {
+    color: #768b9b;
+}
+
